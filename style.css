@@ -1,0 +1,201 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-section{
+    background-color: black;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+  
+}
+
+.navbar{
+    margin-right: 10px;
+    
+}
+.image{
+    background-color:blue;
+}
+
+.list-item {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 18px;
+    padding: 5px;
+    
+}
+
+.list-item:hover{
+    color:red;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.landing-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: black;
+    padding-left: 50px;
+    height: 100vh;
+
+}
+
+.caption{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   margin-left: 80px;
+   width: 70%;
+   
+}
+.span{
+    color: blue;
+    font-family: inherit;
+}
+.header{
+    color: white;
+    padding: 8px;
+    font-family: robotic;
+    font-weight: bold;
+    font-size: 50px;
+}
+.header2{
+    color: gold;
+    font-style: italic;
+    padding: 10px;
+    font-size: 80pxx;
+}
+.header2:hover{
+    color:green;
+}
+.caption-down{
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+}
+/*.......................................about..................................................................*/
+.bcakgrond-about{
+    background-image: url("backgroundimage.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding: 20px;
+    padding-bottom: 30px;
+
+
+}
+
+.paragrapha{
+    padding-top: 20px;
+    font-size: 25px;
+    font-style: italic;
+    justify-content: center;
+    color: white;
+    
+
+}
+.span2{
+    color: blue;
+
+}
+.flexbox-about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+.headind-section{
+    padding-top: 40px ;
+
+}
+
+/*..........project,,,,,,*/
+.backgroun-projects{
+    height: 120vh;
+    background-color: black;
+}
+.heading-projects{
+    color: white;
+    padding-left: 40px;
+    padding-top: 30px;
+    font-size: 35px;
+}
+.projects-paragrap{
+    color: white;
+    padding-left: 40px;
+    padding-top: 30px;
+    font-size: 25px;
+}
+.flex-projects{
+    display: flex;
+    flex-direction: row;
+    
+}
+.projects-photos{
+    height: 200px;
+    width: 200px;
+    padding-left: 40px;
+    padding-top: 30px;
+    width: 250px;
+}
+.project-paragraph{
+    color: white;
+    margin-left: 40px;
+   text-align: center;
+   background-color: green;
+
+}
+
+/* ..........contect........ */
+.contect-baground{
+    background-color: black;
+    height: 100vh;
+    color: white;
+    
+}
+.connect-heading{
+    color: white;
+    text-align: center;
+    font-family: roboto;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.flex-context{
+    display: flex;
+    flex-direction: column;
+
+}
+.para{
+    color: white;
+    padding-left: 200px;
+}
+.bi-logeas{
+    width: 40px;
+    padding-left: 300px;
+}
+.flex-logos{
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    padding-left: 100px;
+}
+.conner-para{
+    padding-left: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+.mark{
+    padding-left: 20px;
+}
+.last-one{
+    padding-left: 25px;
+}
